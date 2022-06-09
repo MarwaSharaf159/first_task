@@ -9,7 +9,7 @@ to know status for this folder (ex to know untracked files)
 
 -- git status
 
-to add all files in the folder to git and this files move to staging area prepare to commit
+1-to add all files in the folder to git and this files move to staging area prepare to commit
 
 -- git add .
 
@@ -17,13 +17,20 @@ to add specific file in folder to git
 
 -- git add fileName
 
-to save changes in files to git when use commit ,automatically created master branch and this commit saved inside the master branch inside our repo in this folder
+2-to save changes in files to git when use commit ,automatically created master branch and this commit saved inside the master branch inside our repo in this folder
 
 -- git commit -m "any comment"
 
 to show branch that save this commit 
 
 -- git branch
+
+when change any thing in file (ex more lines in file more code) then repeat 1,2
+
+-- git add .
+-- git commit -m "any comment"
+
+
 
 
 
